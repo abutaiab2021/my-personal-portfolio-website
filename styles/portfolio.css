@@ -43,7 +43,7 @@ header{
     padding: 20px;
     background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: left 50px top 50px,bottom right;
+    background-position: 23px 38px,bottom right;
     /* background-size:cover; */
 }
 nav{
