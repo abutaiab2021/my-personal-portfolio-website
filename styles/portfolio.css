@@ -28,20 +28,15 @@
     border-radius: 5px;
     cursor:pointer;
 }
-/* main style */
-
+/* header section start */
 header{
     background-color: #FFF8F3;
     padding: 20px;
     background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: left 50px top 50px,bottom right;
     /* background-size:cover; */
-
 }
-
-
-
 nav{
     width: 71%;
     max-width: 1144px;
@@ -83,6 +78,7 @@ header nav .menu li{
     font-size: 85px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: #181818;
 }
 
 
@@ -125,4 +121,100 @@ header nav .menu li{
     border-radius: 5px;
     cursor:pointer;
     border: 1px solid #FD6E0A;
+}
+/* header sectoion end */
+
+/* about section start */
+#about{
+    margin: 130px 230px;
+    max-width: 1140px;
+    width: 71%;
+    padding: 130px 156px;
+    background-color: #FFF8F3;
+}
+
+#about .about-content{
+    text-align: center;
+}
+
+#about .about-content h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+#about .about-content p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.about-info{
+    margin: 0 22px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-info p{
+    color: #757575;
+}
+
+.about-info h4{
+    color: #474747;
+}
+
+/* abut section close */
+
+/* waht id do section start */
+#what-do{
+    margin: 0 230px;
+    max-width: 1140px;
+    width: 71%;
+    padding: 0 156px;
+    text-align: center;
+}
+
+#what-do h1{
+    margin-bottom: 30px;
+}
+#what-do p{
+    margin-bottom: 30px;
+    line-height: 30px;
+    color:#757575;
+}
+
+/* programming section start */
+#programming{
+    margin: 0 230px;
+    padding: 0 156px;
+    text-align: center;
+}
+
+.card-container{
+    max-width: 1200px;
+    /* width: 71%; */
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    /* border: 5px solid #FD6E0A; */
+    padding: 30px;
+    box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    text-align: left;
+    text-align: justify;
+}
+.card img {
+    margin-bottom: 30px;
+}
+.card h4{
+    margin-bottom: 30px;
 }
