@@ -44,6 +44,7 @@ header{
     background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
     background-repeat: no-repeat;
     background-position: 23px 38px,bottom right;
+    margin-bottom: 100px;
     /* background-size:cover; */
 }
 nav{
@@ -87,14 +88,18 @@ header nav .menu li{
 #banner .banner-content h1{
     font-size: 85px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #181818;
 }
 
+.desig{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 
 #banner .banner-content p{
     line-height: 30px;
-    color: 757575;
+    color: #757575;
     font-size: 18px;
     text-align: justify;
 }
@@ -107,12 +112,38 @@ header nav .menu li{
 #my-pic{
     height: 750px;
 }
+
+/* close */
+
+/* techno part start */
+#tech-container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 130px 156px;
+}
+
+#tech-container h2{
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#tech-container p{
+    line-height: 30px;
+    color: #757575;
+    font-size: 18px;
+    text-align: justify;
+}
+
 .tech-btn{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    max-width: 900px;
+    max-width: 100%;
 }
 .tech-btn button{
     font-size: 20px;
@@ -185,7 +216,10 @@ header nav .menu li{
 
 /* skills section start */
 #skills{
-    padding:0 130px;
+    padding-top: 130px;
+}
+#skills{
+    /* padding:0 130px; */
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -239,7 +273,7 @@ header nav .menu li{
 
 /* resume section start */
 #resume{
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 #resume .resume-container{
@@ -346,3 +380,69 @@ footer .footer-container{
     color: #757575;
 } */
 
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    #about{
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-content p{
+        text-align: center;
+    }
+
+    .about-info{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    /* skills section start */
+    #skills{
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .section-heading {
+        width: 95%;
+        text-align: justify;
+        text-align: center;
+   }
+
+   .section-heading h2 {
+    font-size: 30px;
+   }
+
+   #skills .skill-container .skill-box{
+    flex-direction: column;
+   }
+
+   .skill-box .skill-card{
+    max-width: 100%;
+   }
+
+   /* footer */
+   footer .footer-container{
+    flex-direction: column;
+    gap: 20px;
+   }
+
+   .footer-container  h2{
+    font-size: 25px;
+   }
+
+   .footer-container form input[type="text"],
+   .footer-container form input[type="email"],
+   .footer-container form textarea {
+    width: 100%;
+    max-width: 461px;
+    box-sizing: border-box;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    color: #757575;
+    }
+}
