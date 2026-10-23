@@ -397,6 +397,12 @@ footer .footer-container{
     #banner .banner-content{
         text-align: center;
     }
+    #banner .banner-content h1{
+        font-size: 41px;
+    }
+    #banner .banner-content h2{
+        font-size: 40px;
+    }
     #download{
         margin-bottom: 10px;
     }
