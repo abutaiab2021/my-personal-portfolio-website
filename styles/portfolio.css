@@ -394,6 +394,9 @@ footer .footer-container{
         justify-content: center;
     }
 
+    #banner .banner-content{
+        text-align: center;
+    }
     #download{
         margin-bottom: 10px;
     }
